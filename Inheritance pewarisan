@@ -1,0 +1,32 @@
+<?php
+
+class motor{
+    
+    public $merek_motor;
+
+    function berimerek($yamaha){
+        $this->merek_motor=$yamaha;
+    }
+    
+}    
+
+class motor teman{
+  
+    public $merek_motor_teman;
+    
+    function berimerekmotorteman($honda) {
+        $this->merek_motor_teman=$honda;
+    }
+
+}
+
+$motor teman = new motor teman;
+
+$malasngoding->berimerekmotor("Scoopy");
+$malasngoding->berimerekmotorteman("Pino");
+
+
+echo ":".$malasngoding->merek_motor . "<br/>";
+echo ":".$malasngoding->merek_motor_teman;
+
+?>
