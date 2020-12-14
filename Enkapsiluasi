@@ -1,0 +1,22 @@
+<?php
+class kendaraan{
+    
+    protected $warna= "ungu";
+      
+    
+    protected function warna(){
+        return "ungu" .$this->warna;
+    }
+      
+    public function tampilkan_warna(){
+        return $this->warna;
+    }
+     
+      
+}
+  
+$kendaraan = new kendaraan();
+
+echo $kendaraan->tampilkan_warna();
+
+?>
