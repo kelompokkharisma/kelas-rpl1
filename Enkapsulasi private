@@ -1,0 +1,16 @@
+<?php
+class motor{
+    
+    private $merek;
+
+    public function tampilkan_merek(){
+      return "scoopy" .$this->merek;
+        
+    }
+
+}
+$motor = new motor();
+
+echo $motor->tampilkan_merek();
+
+?>
