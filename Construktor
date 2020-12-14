@@ -1,0 +1,33 @@
+<?php
+class motor{
+    
+    var $merek;
+    var $warna;
+    var $ukuran;
+    
+    function tampilkan_merek(){
+        return "Scoopy<br/>";
+        
+    }
+
+    function warna_motor(){
+        return "Warna motor saya ungu<br/>";
+        
+    }
+    
+    function ukuran_motor(){
+        return "Ukuran motor saya 1,5 meter<br/>";
+    }
+
+}
+
+$motor = new motor();
+
+echo $motor->tampilkan_merek();
+
+echo $motor->warna_motor();
+
+echo $motor->ukuran_motor();
+
+
+?>
