@@ -1,0 +1,9 @@
+<?php
+ class motor {          
+     var $warna;        
+     var $merek;        
+     var $ukuran;   
+   
+  
+ }
+ ?>
