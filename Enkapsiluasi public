@@ -1,0 +1,19 @@
+<?php
+class motor{
+    
+    public $merek;
+    public $warna;
+    public $ukuran;
+  
+    function tampilkan_merek(){
+        return "Scoopy </br>";
+        
+    }
+
+}
+
+$motor = new motor();
+
+echo $motor->tampilkan_merek();
+
+?>
